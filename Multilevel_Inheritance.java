@@ -10,14 +10,14 @@ class Pet extends Animal{
      System.out.println("I am Walking");
  }
 }
-public class Dog extends Pet{
+class Main extends Pet{
   public void Security(){
       System.out.println("I am doing Security");
   }
   public static void main(String[] args)
   {
  
-  Dog d = new Dog();
+  Main d = new Main();
   d.eat();
   d.walk();
   d.Security();
@@ -29,5 +29,6 @@ public class Dog extends Pet{
   
   Animal Lion = new Animal();
   Lion.eat();
+ 
 }
 }
