@@ -5,7 +5,7 @@ abstract class vehicle{
 }
 class car extends vehicle{
   void start(){
-    System.out.println("Starts by Key");
+    System.out.println("Starts by Key"); 
   }
 }
 public class scooter extends vehicle{
@@ -20,4 +20,5 @@ public class scooter extends vehicle{
     scooter bajaj = new scooter();// bajaj is a scooter
     bajaj.start();
   }
+  System.out.println("Hello");
 }
