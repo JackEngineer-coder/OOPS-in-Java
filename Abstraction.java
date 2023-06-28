@@ -20,4 +20,5 @@ public class scooter extends vehicle{
     scooter bajaj = new scooter();
     bajaj.start();
   }
+  System.out.println("This is an edit");
 }
