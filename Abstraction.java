@@ -17,7 +17,7 @@ public class scooter extends vehicle{
     car alto = new car();
     alto.start();
 
-    scooter bajaj = new scooter();
+    scooter bajaj = new scooter();// bajaj is a scooter
     bajaj.start();
   }
 }
